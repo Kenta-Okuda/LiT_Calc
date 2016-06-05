@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     var number: Int = 0
     var number2: Int = 0
     var oparation: Int = 0
+    var push_btn: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +30,7 @@ class ViewController: UIViewController {
         number = 0
         number2 = 0
         oparation = 0
+        push_btn = 0
         label.text = "0"
     }
     
@@ -37,7 +39,15 @@ class ViewController: UIViewController {
         number += num
         label.text = String(number)
     }
+   
+#if true
+    @IBAction func pushButton(sender: UIButton) {
+        push_btn = Int((sender.titleLabel?.text)!)!
+        disp(push_btn)
+    }
+#endif
     
+#if false
     
     @IBAction func select0() {
         disp(0)
@@ -70,6 +80,8 @@ class ViewController: UIViewController {
         disp(9)
     }
    
+#endif
+    
     @IBAction func plus() {
         label.text = "0"
         oparation = 1

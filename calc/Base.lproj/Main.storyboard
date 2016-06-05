@@ -28,7 +28,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="1"/>
                                 <connections>
-                                    <action selector="select1" destination="BYZ-38-t0r" eventType="touchDown" id="VCe-Ab-BfF"/>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchDown" id="u8r-DQ-6h2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMA-YT-P1S">
@@ -36,7 +36,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="2"/>
                                 <connections>
-                                    <action selector="select2" destination="BYZ-38-t0r" eventType="touchDown" id="VGD-HX-7HZ"/>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchDown" id="zCA-hU-V5v"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykN-O9-Cm6">
@@ -44,7 +44,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="6"/>
                                 <connections>
-                                    <action selector="select6" destination="BYZ-38-t0r" eventType="touchDown" id="nxG-0S-GK2"/>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchDown" id="wdL-gI-WL8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMH-am-1Ku">
@@ -52,7 +52,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="5"/>
                                 <connections>
-                                    <action selector="select5" destination="BYZ-38-t0r" eventType="touchDown" id="BzX-nE-qFD"/>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchDown" id="QTb-6V-Bjf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT9-lg-byn">
@@ -60,7 +60,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="4"/>
                                 <connections>
-                                    <action selector="select4" destination="BYZ-38-t0r" eventType="touchDown" id="mjl-DZ-JZm"/>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchDown" id="aYw-K9-RWU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQp-Pt-CFG">
@@ -68,7 +68,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="9"/>
                                 <connections>
-                                    <action selector="select9" destination="BYZ-38-t0r" eventType="touchDown" id="HdM-OP-FHW"/>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchDown" id="aRo-Rr-DHh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9Q-5k-syN">
@@ -84,7 +84,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="0"/>
                                 <connections>
-                                    <action selector="select0" destination="BYZ-38-t0r" eventType="touchDown" id="1pO-F8-n3S"/>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchDown" id="suV-UG-3ot"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrc-uH-Thx">
@@ -100,7 +100,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="8"/>
                                 <connections>
-                                    <action selector="select8" destination="BYZ-38-t0r" eventType="touchDown" id="bzL-5U-vXa"/>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchDown" id="47A-v1-EXb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOT-jm-5DH">
@@ -108,7 +108,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="7"/>
                                 <connections>
-                                    <action selector="select7" destination="BYZ-38-t0r" eventType="touchDown" id="s4y-5X-nQN"/>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchDown" id="Lny-BU-KMY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2o-SK-0vk">
@@ -116,7 +116,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <action selector="select3" destination="BYZ-38-t0r" eventType="touchDown" id="zTk-GY-lY5"/>
+                                    <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchDown" id="SbB-Kx-Q36"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W48-JE-hzY">
@@ -140,7 +140,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="/"/>
                                 <connections>
-                                    <action selector="waru" destination="BYZ-38-t0r" eventType="touchDown" id="MBA-cj-fQH"/>
+                                    <action selector="waru" destination="BYZ-38-t0r" eventType="touchDown" id="MSd-4X-qJD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gd5-x1-dS6">
