@@ -40,47 +40,43 @@ class ViewController: UIViewController {
         label.text = String(number)
     }
    
-#if true
     @IBAction func pushButton(sender: UIButton) {
-        push_btn = Int((sender.titleLabel?.text)!)!
+        push_btn = Int((sender.titleLabel!.text)!)!
         disp(push_btn)
     }
-#endif
     
-#if false
-    
-    @IBAction func select0() {
-        disp(0)
-    }
-    @IBAction func select1() {
-        disp(1)
-    }
-    @IBAction func select2() {
-        disp(2)
-    }
-    @IBAction func select3() {
-        disp(3)
-    }
-    @IBAction func select4() {
-        disp(4)
-    }
-    @IBAction func select5() {
-        disp(5)
-    }
-    @IBAction func select6() {
-        disp(6)
-    }
-    @IBAction func select7() {
-        disp(7)
-    }
-    @IBAction func select8() {
-        disp(8)
-    }
-    @IBAction func select9() {
-        disp(9)
-    }
-   
-#endif
+//    
+//    @IBAction func select0() {
+//        disp(0)
+//    }
+//    @IBAction func select1() {
+//        disp(1)
+//    }
+//    @IBAction func select2() {
+//        disp(2)
+//    }
+//    @IBAction func select3() {
+//        disp(3)
+//    }
+//    @IBAction func select4() {
+//        disp(4)
+//    }
+//    @IBAction func select5() {
+//        disp(5)
+//    }
+//    @IBAction func select6() {
+//        disp(6)
+//    }
+//    @IBAction func select7() {
+//        disp(7)
+//    }
+//    @IBAction func select8() {
+//        disp(8)
+//    }
+//    @IBAction func select9() {
+//        disp(9)
+//    }
+// 
     
     @IBAction func plus() {
         label.text = "0"
@@ -112,7 +108,6 @@ class ViewController: UIViewController {
     
     @IBAction func equal() {
         
-#if true
         switch(oparation) {
             case 1: 
                 label.text = String(number2 + number)
@@ -130,9 +125,8 @@ class ViewController: UIViewController {
                 label.text = "Error"
                 initCalc()
         }
-#endif
- 
-#if false
+
+/*
         if (oparation == 1) {
             label.text = String(number2 + number)
             number = number2 + number
@@ -149,7 +143,7 @@ class ViewController: UIViewController {
             label.text = "Error"
             initCalc()
         }
-#endif
+*/
         
     }
 
